@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+    <div class="container whole">
+        <div class="header-flex">
+            <div class="header-left">
+                <a class="logo" href="#"><img src="img/logo.png" alt="logo"><span class="logo-text_1">BRAN</span><span class="logo-text_2">D</span></a>
+                <form class="form" action="#">
+                    <div class="browse-box"> 
+                        <a class="browse" href="#">Browse</a>
+                        <img class="arrow_1" src="img/arrow.png" alt="arrow_1"> 
+                    </div>
+                    <input class="input-header" placeholder="Search for Item..." type="text" autofocus required pattern="\S+[А-Я а-я]">
+                    <button class="search_button" type="submit"><img class="search" src="img/search.png" alt="search"></button>
+                </form>
+            </div>
+            <div class="header-right"> 
+                <a class="busk" href="#"><img class="busk" src="img/Forma%201.svg" alt="busk"></a> 
+                <a class="my-acc" href="#">My Account<img class="arrow_2" src="img/arrow.png" alt="arrow_2"></a> 
+            </div>
+        </div>
+    <nav class="navigation">
+        <ul class="menu"><!-- убрала тень из под шапки, до этого контейнер был в класе навигации -->
+            <li><a class="menu__link" href="#">Home</a></li>
+            <li><a class="menu__link" href="#">Man</a></li>
+            <li><a class="menu__link" href="#">Women</a></li>
+            <li><a class="menu__link" href="#">Kids</a></li>
+            <li><a class="menu__link" href="#">Accoseriese</a></li>
+            <li><a class="menu__link" href="#">Featured</a></li>
+            <li><a class="menu__link" href="#">Hot Deals</a></li>
+        </ul>
+    </nav>
+    <div class="slider"><!-- блок с кучерявым мужиком -->
+        <div class="box-slider-text"><!-- этот бокс добавила, потому что слева от мужика есть розовый вертикальный блок -->
+            <h2 class="slider_heading">THE BRAND</h2>
+            <p class="slider_text">OF LUXERIOUS FASHION</p>
+        </div>
+    </div>
+    <div class="container offers">
+        <div class="offers-flex"><!-- container центрирует, а offers-flex отвечает за блоки слева и справа -->
+            <div class="offer-left"><!-- блок с двумя фотками слева -->
+                <div class="offer-big"><!-- изображение большое в левой части -->
+                    <p class="offer_text">hOT dEAL</p>
+                    <h2 class="offer_heading">FOR MEN</h2> </div>
+                <div class="offer-mini"><!-- изображение маленькое в левой части -->
+                    <p class="offer_text">LUXIROUS & trendy</p>
+                    <h2 class="offer_heading">ACCESORIES</h2> </div>
+            </div>
+            <div class="offer-right"><!-- блок с двумя фотками справа -->
+                <div class="offer-mini"><!-- изображение маленькое в правой части -->
+                    <p class="offer_text">30% offer</p>
+                    <h2 class="offer_heading">women</h2> </div>
+                <div class="offer-big"><!-- изображение большое в правой части -->
+                    <p class="offer_text">new arrivals</p>
+                    <h2 class="offer_heading">FOR kids</h2> </div>
+            </div>
+        </div>
+    </div>
+    <div class="featured">
+        <div class="featured_text">
+            <h2 class="featured_text">Fetured Items</h2>
+            <p class="featured_text">Shop for items based on what we featured in this week</p>
+        </div>
+    </div>
+    <div class="container items-flex"><!-- блок с маленькими фотками -->
+        <div class="items-line-1"><!-- блок с первыми 4-мя горизонтальными фотками -->
+            <div class="items-1">
+                <div class="add-flex">
+                    <a href="#"><img src="img/busk.png" alt="add_item"></a> 
+                    <a class="add-to-cart" href="#">Add to Cart</a> 
+                </div>
+                <a href="#">
+                    <p class="items_text">Mango People T-shirt</p>
+                    <p class="items_text">$52.00</p>
+                </a>
+            </div>
+            <div class="items-2">
+                <div class="add-flex">
+                    <a href="#"><img src="img/busk.png" alt="add_item"></a> 
+                    <a class="add-to-cart" href="#">Add to Cart</a> 
+                </div>
+                <a href="#">
+                    <p class="items_text">Mango People T-shirt</p>
+                    <p class="items_text">$52.00</p>
+                </a>
+            </div>
+            <div class="items-3">
+                <div class="add-flex">
+                    <a href="#"><img src="img/busk.png" alt="add_item"></a> 
+                    <a class="add-to-cart" href="#">Add to Cart</a> 
+                </div>
+                <a href="#">
+                    <p class="items_text">Mango People T-shirt</p>
+                    <p class="items_text">$52.00</p>
+                </a>
+            </div>
+            <div class="items-4">
+                <div class="add-flex">
+                    <a href="#"><img src="img/busk.png" alt="add_item"></a> 
+                    <a class="add-to-cart" href="#">Add to Cart</a> 
+                </div>
+                <a href="#">
+                    <p class="items_text">Mango People T-shirt</p>
+                    <p class="items_text">$52.00</p>
+                </a>
+            </div>
+        </div>
+        <div class="items-line-2"><!-- блок со вторыми 4-мя горизонтальными фотками -->
+            <div class="items-5">
+                <div class="add-flex">
+                    <a href="#"><img src="img/busk.png" alt="add_item"></a> 
+                    <a class="add-to-cart" href="#">Add to Cart</a> 
+                </div>
+                <a href="#">
+                    <p class="items_text">Mango People T-shirt</p>
+                    <p class="items_text">$52.00</p>
+                </a>
+            </div>
+            <div class="items-6">
+                <div class="add-flex">
+                    <a href="#"><img src="img/busk.png" alt="add_item"></a> 
+                    <a class="add-to-cart" href="#">Add to Cart</a> 
+                </div>
+                <a href="#">
+                    <p class="items_text">Mango People T-shirt</p>
+                    <p class="items_text">$52.00</p>
+                </a>
+            </div>
+            <div class="items-7">
+                <div class="add-flex">
+                    <a href="#"><img src="img/busk.png" alt="add_item"></a> 
+                    <a class="add-to-cart" href="#">Add to Cart</a> 
+                </div>
+                <a href="#">
+                    <p class="items_text">Mango People T-shirt</p>
+                    <p class="items_text">$52.00</p>
+                </a>
+            </div>
+            <div class="items-8">
+                <div class="add-flex">
+                    <a href="#"><img src="img/busk.png" alt="add_item"></a> 
+                    <a class="add-to-cart" href="#">Add to Cart</a> 
+                </div>
+                <a href="#">
+                    <p class="items_text">Mango People T-shirt</p>
+                    <p class="items_text">$52.00</p>
+                </a>
+            </div>
+        </div>
+        <div class="container products">
+        <div class="all_products"> 
+            <a class="product" href="#">Browse All Product</a> 
+            <img class="arrow_right" src="img/arrow_right.png" alt="arrow_right"> 
+        </div>
+        </div>
+    </div>
+    <div class="container sales_delivery">
+        <div class="sales"><!-- блок со скидкой winter -->
+            <div class="sale-flex">
+                <div class="sale-text">
+                    <h2 class="sale_heading">30% <span>OFFER</span></h2>
+                    <p class="sale_heading">FOR WOMEN</p>
+                </div>
+            </div>
+        </div>
+        <div class="delivery-flex">
+            <div class="delivery-text">
+                <div class="delivery-text_1"> 
+                    <img src="img/car.png" alt="car">
+                    <h2>Free Delivery</h2>
+                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                </div>
+                <div class="delivery-text_2"> 
+                    <img src="img/proc.png" alt="proc">
+                    <h2>Sales & discounts</h2>
+                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                </div>
+                <div class="delivery-text_3"> 
+                    <img src="img/king.png" alt="king">
+                    <h2>Quality assurance</h2>
+                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container whole_subscribe">
+        <div class="container subscribe">
+            <div class="sub-flex">
+                <div class="subscribe_left"> 
+                    <img src="img/Layer%2040.png" alt="girl">
+                    <p class="sub_1">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                    <p class="sub_2">Bin Burhan</p>
+                    <p class="sub_3">Dhaka, Bd</p>
+                </div>
+            </div>
+        </div>
+        <div class="container sub_block">
+            <div class="subscribe_text">
+                <h2>Subscribe</h2>
+                <p>FOR OUR NEWLETTER AND PROMOTION</p>
+            </div>
+            <div class="subscribe-box">
+                <input class="input-footer" placeholder="Enter Your Email" type="text" required pattern="\S+@[a-z]+.[a-z]+"><!-- поле обязательно для заполнения и маска для email -->
+                <a class="subscribe_but" href="#">Subscribe</a> 
+            </div>
+        </div>
+    </div>
+    <div class="container whole_footer">
+        <div class="footer">
+            <div class="footer-block_1">
+                <div class="box_1">
+                    <a class="logo" href="#"><img src="img/logo.png" alt="logo"><span class="logo-text"></span>BRAND</a>
+                    <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go&nbsp;forward benefits. Intrinsicly syndicate an&nbsp;expanded array of&nbsp;processes and cross-unit partnerships.</p>
+                    <p>Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+                </div>
+            </div>
+            <div class="footer-block_2">
+                <div class="box_2">
+                    <h2>COMPANY</h2>
+                    <div class="navigation_footer">
+                        <ul>
+                            <li><a class="link_footer" href="#">Home</a></li>
+                            <li><a class="link_footer" href="#">Shop</a></li>
+                            <li><a class="link_footer" href="#">About</a></li>
+                            <li><a class="link_footer" href="#">How It Works</a></li>
+                            <li><a class="link_footer" href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-block_3">
+                <div class="box_3">
+                    <h2>INFORMATION</h2>
+                    <div class="navigation_footer">
+                        <ul>
+                            <li><a class="link_footer" href="#">Tearms & Condition</a></li>
+                            <li><a class="link_footer" href="#">Privacy Policy</a></li>
+                            <li><a class="link_footer" href="#">How to Buy</a></li>
+                            <li><a class="link_footer" href="#">How to Sell</a></li>
+                            <li><a class="link_footer" href="#">Promotion</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-block_4">
+                <div class="box_4">
+                    <h2>SHOP CATEGORY</h2>
+                    <div class="navigation_footer">
+                        <ul>
+                            <li><a class="link_footer" href="#">Men</a></li>
+                            <li><a class="link_footer" href="#">Women</a></li>
+                            <li><a class="link_footer" href="#">Child</a></li>
+                            <li><a class="link_footer" href="#">Apparel</a></li>
+                            <li><a class="link_footer" href="#">Brows All</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container footer_rights">
+            <div class="footer_text">
+                <p>&copy; 2017 Brand All Rights Reserved.</p>
+            </div>
+            <div class="links">
+                <button class="button_link">
+                    <a href="#"><img src="img/f.png" alt="facebook"></a>
+                </button>
+                <button class="button_link">
+                    <a href="#"><img src="img/t.png" alt="twitter"></a>
+                </button>
+                <button class="button_link">
+                    <a href="#"><img src="img/in.png" alt="linked in"></a>
+                </button>
+                <button class="button_link">
+                    <a href="#"><img src="img/arrow.png" alt="link"></a>
+                </button>
+                <button class="button_link">
+                    <a href="#"><img src="img/g+.png" alt="google+"></a>
+                </button>
+            </div>
+    </div>
+</div>
+</body>
+
+</html>
